@@ -14,7 +14,7 @@
   "browser_action": {
       "default_title": "Resolute Lacrosse Theme",
       "default_popup": "popup.html",
-      "default_icon": "icon48.png"
+      "default_icon": "/images/icon48.png"
   },
 
   "author": "Dave Campbell | http://davecampbell.co",
