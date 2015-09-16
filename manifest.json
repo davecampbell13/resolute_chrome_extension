@@ -1,0 +1,25 @@
+{
+  // Required
+  "name": "ResoluteTheme",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  // Recommended
+  "description": "A Chrome theme for Resolute Lacrosse players.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"},
+
+  "browser_action": {
+      "default_title": "Resolute Lacrosse Theme",
+      "default_popup": "popup.html",
+      "default_icon": "icon48.png"
+  },
+
+  "author": "Dave Campbell | http://davecampbell.co",
+
+  "chrome_url_overrides": {
+    "newtab": "resolute-extension.html"
+  }
+}
